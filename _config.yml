@@ -1,20 +1,9 @@
 name: Wix Prototypers
 title: null
 
-ux_owner: "Ux Owner"
-prototyper: "Prototyper's Name"
-date_created: "June 2021"
-
-variations:
-  - name: "Link and description"
-    description: "This is the variation description "
-    # Url contains everything that comes after https://wix-prototypers.github.io/
-    # e.g: /editor_project-name/project-name_01_variation-name
-    url: "/"
-  - name: "Only Link"
-    # Url contains everything that comes after https://wix-prototypers.github.io/
-    # e.g: /editor_project-name/project-name_01_variation-name
-    url: "/"
+ux_owner: Shahar Mor"
+prototyper: "Ariel Olin"
+date_created: "May 2022"
 
 useful_links:
   - name: "Presentation"
