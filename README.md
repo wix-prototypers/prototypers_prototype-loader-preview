@@ -16,7 +16,7 @@ prototoypeLoader(type,delay)
 ```
 #### type - defines the loader used. options:
 ```Javascript
-"default" //no need to pass it, will be use by default:)
+"default" //no need to pass it, will be used by default:)
 "editor-loader"
 "editorx-loader
 ```
