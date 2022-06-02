@@ -1,17 +1,20 @@
-const onPrototypeReady = (src) => {
+const onPrototypeReady = (src, delay = 500) => {
   const body = document.querySelector("body");
-
-  if (!src) {
+  if (src === "editor-loader") {
+    body.insertAdjacentHTML(
+      "afterbegin",
+      `  <iframe class="loader-frame" src="loader-editor.html" style="height: 102vh; top: -3px;"></iframe>`
+    );
+  } else {
     body.classList.add("loading");
     body.insertAdjacentHTML("afterbegin", `<span class="loader"></span>`);
-  } else {
-    body.insertAdjacentHTML("afterbegin", `<iframe src=${src}></iframe>`);
   }
   window.addEventListener("load", function () {
-    prototypeFunc();
-    body.classList.remove("loading");
-    document.querySelector(".loader")?.remove();
-    body.classList.add("loaded");
+    setTimeout(() => {
+      body.classList.remove("loading");
+      body.querySelector(".loader-frame")?.remove();
+      document.querySelector(".loader")?.remove();
+      body.classList.add("loaded");
+    }, delay);
   });
 };
-onPrototypeReady("https://www.google.com");
