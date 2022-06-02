@@ -14,7 +14,7 @@ A styled loader for code-based prototypes. the loader clears all HTML, styles an
 ```Javascript
 prototoypeLoader(type,delay)
 ```
-### type 
+##### type 
 defines the loader used. options:
 ```Javascript
 "default" //no need to pass it, will be use by default:)
