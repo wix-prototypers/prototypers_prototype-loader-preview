@@ -9,6 +9,7 @@ Import the JavaScript file via CDN :
       src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@latest/loader.js"
     ></script>
 ```
-Call ```JavaScript
+Call 
+```JavaScript
 prototoypeLoader
 ```
