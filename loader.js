@@ -1,9 +1,14 @@
-const onPrototypeReady = (src, delay = 500) => {
+const onPrototypeReady = (loader, delay = 2500) => {
   const body = document.querySelector("body");
-  if (src === "editor-loader") {
+  if (loader === "editor-loader") {
     body.insertAdjacentHTML(
       "afterbegin",
-      `  <iframe class="loader-frame" src="loader-editor.html" style="height: 102vh; top: -3px;"></iframe>`
+      `  <iframe class="loader-frame" src="./editor-loader.html" style="height: 102vh; top: -3px;"></iframe>`
+    );
+  } else if (loader === "editorx-loader") {
+    body.insertAdjacentHTML(
+      "afterbegin",
+      `  <iframe class="loader-frame" src="./editorx-loader.html" style="height: 102vh; top: -3px;"></iframe>`
     );
   } else {
     body.classList.add("loading");
@@ -12,8 +17,8 @@ const onPrototypeReady = (src, delay = 500) => {
   window.addEventListener("load", function () {
     setTimeout(() => {
       body.classList.remove("loading");
-      body.querySelector(".loader-frame")?.remove();
       document.querySelector(".loader")?.remove();
+      document.querySelector(".loader-frame")?.remove();
       body.classList.add("loaded");
     }, delay);
   });

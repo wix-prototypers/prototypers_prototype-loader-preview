@@ -1,4 +1,11 @@
 # prototypers_prototype-loader
+
 A styled loader for code-based prototypes
 CDN :
-<script src=“https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-panel@3/dist/prototypePanel.js”></script>
+
+```HTML
+ <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@latest/loader.js"
+    ></script>
+```
