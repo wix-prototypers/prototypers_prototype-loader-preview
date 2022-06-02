@@ -9,7 +9,7 @@ A styled loader for code-based prototypes. the loader clears all HTML, styles an
 ```HTML
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@0.15/style.css"
+    href="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@0.16/style.css"
   ></link>
 ```
 
@@ -18,7 +18,7 @@ A styled loader for code-based prototypes. the loader clears all HTML, styles an
 ```HTML
  <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@0.15/loader.js"
+      src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@0.16/loader.js"
     ></script>
 ```
 

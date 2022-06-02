@@ -20,6 +20,7 @@ const prototypeLoader = (loader, delay = 2500) => {
   window.addEventListener("load", function () {
     setTimeout(() => {
       body.classList.remove("loading");
+      body.classList.remove("frame-loading");
       document.querySelector(".loader")?.remove();
       document.querySelector(".loader-frame")?.remove();
       body.classList.add("loaded");
