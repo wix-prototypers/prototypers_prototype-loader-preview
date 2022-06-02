@@ -1,6 +1,6 @@
 # prototypers_prototype-loader
 
-A styled loader for code-based prototypes.
+A styled loader for code-based prototypes. the loader clears all HTML, styles and images from the browser untill the prototype is fully loaded. In the meanwhile a customized loader will be shown.
 ## Usage
 1. Import the JavaScript file via CDN :
 ```HTML
@@ -15,3 +15,10 @@ A styled loader for code-based prototypes.
 prototoypeLoader(type,delay)
 ```
 
+Arguments:
+type : defines the loader used. options:
+```Javascript
+"default" //no need to pass it, will be use by default:)
+"editor-loader"
+"editorx-loader
+```
