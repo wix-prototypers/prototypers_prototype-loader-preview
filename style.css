@@ -28,7 +28,7 @@ body.loading:after {
   z-index: -1;
   animation: circle 1s linear infinite alternate;
 }
-body.loading *:not(.loader) {
+body.loading *:not(.loader):not(.loader-frame) {
   display: none !important;
 }
 
