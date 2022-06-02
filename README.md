@@ -14,9 +14,10 @@ A styled loader for code-based prototypes. the loader clears all HTML, styles an
 ```Javascript
 prototoypeLoader(type,delay)
 ```
-#### type defines the loader used. options:
+#### type - defines the loader used. options:
 ```Javascript
 "default" //no need to pass it, will be use by default:)
 "editor-loader"
 "editorx-loader
 ```
+#### delay - defines the minimal period of time (ms) that the loader will be shown. defaults to 500
