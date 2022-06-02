@@ -1,14 +1,14 @@
-const prototypeLoader = (loader, delay = 500) => {
+const prototypeLoader = (loader, delay = 2500) => {
   const body = document.querySelector("body");
   if (loader === "editor-loader") {
     body.insertAdjacentHTML(
       "afterbegin",
-      `  <iframe class="loader-frame" src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@latest/editor-loader.html" style="height: 102vh; top: -3px;"></iframe>`
+      `  <iframe class="loader-frame" src="https://wix-prototypers.github.io/prototypers_prototype-loader-preview/editor-loader.html" style="height: 102vh; top: -3px;"></iframe>`
     );
   } else if (loader === "editorx-loader") {
     body.insertAdjacentHTML(
       "afterbegin",
-      `  <iframe class="loader-frame" src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@latest/editorx-loader.html" style="height: 102vh; top: -3px;"></iframe>`
+      `  <iframe class="loader-frame" src="https://wix-prototypers.github.io/prototypers_prototype-loader-preview//editorx-loader.html" style="height: 102vh; top: -3px;"></iframe>`
     );
   } else {
     body.classList.add("loading");
