@@ -2,14 +2,16 @@
 
 A styled loader for code-based prototypes.
 ## Usage
-Import the JavaScript file via CDN :
+1. Import the JavaScript file via CDN :
 ```HTML
  <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/gh/wix-prototypers/prototypers_prototype-loader-preview@latest/loader.js"
     ></script>
 ```
-Call 
-```JavaScript
-prototoypeLoader
+2. In your JS file Call the prototoypeLoader function before preforming any other actions:
+
+```Javascript
+prototoypeLoader(type,delay)
 ```
+
