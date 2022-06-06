@@ -17,6 +17,7 @@ body.loading {
   transform: rotate(45deg);
   display: flex !important;
 }
+
 body.loading:after {
   content: "";
   border: 5px solid #373737;
@@ -33,6 +34,11 @@ body.loading *:not(.loader) {
 }
 body.frame-loading *:not(.loader-frame) {
   display: none !important;
+}
+
+.loader-frame {
+  height: 102vh;
+  top: -3px;
 }
 
 .loader {

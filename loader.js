@@ -1,22 +1,17 @@
-const prototypeLoader = (loader, delay = 2500) => {
-  const body = document.querySelector("body");
+const body = document.querySelector("body");
 
-  if (loader === "editor-loader") {
+const prototypeLoader = (type, delay = 500) => {
+  if (type === "editor" || type === "editorx") {
     body.classList.add("frame-loading");
     body.insertAdjacentHTML(
       "afterbegin",
-      `  <iframe class="loader-frame" src="https://wix-prototypers.github.io/prototypers_prototype-loader-preview/editor-loader.html" style="height: 102vh; top: -3px;"></iframe>`
-    );
-  } else if (loader === "editorx-loader") {
-    body.classList.add("frame-loading");
-    body.insertAdjacentHTML(
-      "afterbegin",
-      `  <iframe class="loader-frame" src="https://wix-prototypers.github.io/prototypers_prototype-loader-preview//editorx-loader.html" style="height: 102vh; top: -3px;"></iframe>`
+      `  <iframe class="loader-frame" src="https://wix-prototypers.github.io/prototypers_prototype-loader-preview/${type}-loader.html"></iframe>`
     );
   } else {
     body.classList.add("loading");
     body.insertAdjacentHTML("afterbegin", `<span class="loader"></span>`);
   }
+
   window.addEventListener("load", function () {
     setTimeout(() => {
       body.classList.remove("loading");
