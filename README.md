@@ -1,6 +1,7 @@
 # prototypers_prototype-loader
 
 A styled loader for code-based prototypes. the loader clears all HTML, styles and images from the browser untill the prototype is fully loaded. In the meanwhile a customized loader will be shown.
+An altrantive usage might be showcasing one of Wix's featured loaders as part of the prototype flow.
 
 ## Usage
 
