@@ -32,8 +32,8 @@ prototoypeLoader(type,delay)
 
 ```Javascript
 "default" //no need to pass it, will be used by default:)
-"editor-loader"
-"editorx-loader"
+"editor"
+"editorx"
 ```
 
 #### delay - defines the minimal period of time (ms) that the loader will be shown. defaults to 500
