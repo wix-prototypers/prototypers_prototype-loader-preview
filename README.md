@@ -43,6 +43,6 @@ protoypeLoader(type,delay)
 
 ```Javascript
 //...NOTHING...
-prototoypeLoader('editorx','1500');
+prototype('editorx','1500');
 //...PROTOTYPE LOGIC...
 ```
