@@ -5,7 +5,7 @@ An altrantive usage might be showcasing one of Wix's featured loaders as part of
 
 ## Usage
 
-1. Import the CSS file via CDN (place it *before* any other CSS links) :
+1. Import the CSS file via CDN (place it **before any other CSS links**) :
 
 ```HTML
   <link
@@ -14,7 +14,7 @@ An altrantive usage might be showcasing one of Wix's featured loaders as part of
   ></link>
 ```
 
-2. Import the JavaScript file via CDN (place it before any other js script imports) :
+2. Import the JavaScript file via CDN (place it **before any other js script imports**) :
 
 ```HTML
  <script
