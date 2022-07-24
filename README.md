@@ -23,7 +23,7 @@ An altrantive usage might be showcasing one of Wix's featured loaders as part of
     ></script>
 ```
 
-3. In your JS file Call the prototoypeLoader function **before preforming any other actions:
+3. In your JS file Call the prototoypeLoader function **before preforming any other actions**:
 
 ```Javascript
 protoypeLoader(type,delay)
