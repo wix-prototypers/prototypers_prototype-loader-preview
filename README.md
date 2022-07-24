@@ -26,7 +26,7 @@ An altrantive usage might be showcasing one of Wix's featured loaders as part of
 3. In your JS file Call the prototoypeLoader function before preforming any other actions:
 
 ```Javascript
-prototoypeLoader(type,delay)
+protoypeLoader(type,delay)
 ```
 
 #### type - defines the loader used. options:
